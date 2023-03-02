@@ -1,0 +1,147 @@
+/* Colors and fonts */
+
+body {
+font-family: sans-serif;
+background-color: #B3E5BE;
+color: black; 
+margin: 3rem;
+}
+
+h1 {
+font-family: sans-serif;
+font-weight: bolder;
+font-size: 30px;
+color: #804674;
+}
+
+h2 {
+color: #A86464;
+}
+
+p {
+text-justify:  justify ;
+font-family: Helvetica;
+}
+
+a {
+color: #30a5c6;
+transition: color 0.2s ease;
+text-decoration: none ;
+font-weight: bold;
+}
+a:hover {
+color: #154c79 ;
+}
+
+
+/* Custom design with class */
+
+
+@media (min-width: 960px){
+	.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+}
+
+@media (max-width: 720px){
+	.container {
+	width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container {
+	width: 400px;
+	}
+}
+
+@media (max-width: 350){
+	.container {
+	width: 250px;
+	}
+}
+
+@media (max-width: 200){
+	.container {
+	width: 100px;
+	}
+}
+
+.size-bigger {
+font-size: 200%;
+}
+
+.card-white {
+padding: 40px;
+margin: 40px auto;
+text-align: center;
+position: relative;
+box-shadow: 4px 4px 4px 4px rgba(0,0,0,.25) ;
+  width: 500px;
+  background-color:#F5FFC9;
+  border-radius: 5% 5% 5% 5% / 0% 0% 0% 0% ;
+}
+
+.card-white h2 {
+font-family: Arial;
+}
+
+.card-white h1 {
+font-family: Arial;
+}
+
+
+.btn-blue {
+background-color: #154c79;
+color: white;
+padding: 10px 15px;
+font-weight: bolder;
+border-radius: 4px;
+transition: all 0.7s ease;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+
+#img-caption {
+font-weight: lighter;
+font-size: 13px;
+font-style: italic;
+font-family: Bradley Hand;
+}
+
+.btn-blue:hover {
+color: white;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 12px;
+transition: all 0.7s ease;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 2px;
+}
+.list-inline i {
+font-size: 50px;
+padding: 10px;
+color: rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease;
+}
+.list-inline i:hover {
+font-size: 55px;
+padding: 0px;
+color: black;
+transition: all 0.3s ease;
+}
+
+.btn-space {
+margin-top: 30px;
+padding-inline-start: 0;
+}
